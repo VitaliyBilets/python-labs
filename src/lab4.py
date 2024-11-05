@@ -33,7 +33,7 @@ class Plane:
         print(f"{self.__name} destroyed.")
 
 
-def main(self):
+def main():
     plane1 = Plane("Boeing 747", 416, 238840, 920, "Boeing", 22)
     plane2 = Plane()
     plane3 = Plane("Airbus A380", 555, 320000, 945, "Airbus", 36)
@@ -51,4 +51,5 @@ def main(self):
 
 plane_obj = Plane()
 
-plane_obj.main()
+if __name__ == "__main__":
+    main()
